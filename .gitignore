@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# uv
+.uv/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+*.pem
+*.key
+secrets/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.cursor/
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage.xml
+
+# Runtime
+logs/
+*.log
+data/uploads/
+data/cache/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LangSmith / local traces
+.langsmith/
+
+# Streamlit
+.streamlit/secrets.toml
