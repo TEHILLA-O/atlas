@@ -2,6 +2,8 @@
 
 **Agentic Research, Knowledge Retrieval and Decision Intelligence Platform**
 
+See [FAILURES.md](./FAILURES.md) for what can go wrong, what broke, how it was fixed, and results.
+
 Atlas is not a chatbot and not a "chat with PDF" demo.
 
 It is a production-style research system that turns a complex question into a plan, gathers evidence from public and private sources, scores source quality, detects contradictions, verifies citations, estimates confidence, and can pause for human approval before a recommendation is finalised.
