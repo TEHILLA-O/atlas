@@ -1,4 +1,4 @@
-# ADR 005 — Provider-independent LLMs
+# ADR 005: Provider-independent LLMs
 
 ## Status
 

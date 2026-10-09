@@ -1,4 +1,4 @@
-# ADR 006 — Hybrid retrieval
+# ADR 006: Hybrid retrieval
 
 ## Status
 

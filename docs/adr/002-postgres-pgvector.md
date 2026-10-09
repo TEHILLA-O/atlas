@@ -1,4 +1,4 @@
-# ADR 002 — PostgreSQL and pgvector
+# ADR 002: PostgreSQL and pgvector
 
 ## Status
 

@@ -1,4 +1,4 @@
-# ADR 007 — Confidence scoring
+# ADR 007: Confidence scoring
 
 ## Status
 

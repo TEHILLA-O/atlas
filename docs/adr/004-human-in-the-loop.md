@@ -1,4 +1,4 @@
-# ADR 004 — Human-in-the-loop
+# ADR 004: Human-in-the-loop
 
 ## Status
 

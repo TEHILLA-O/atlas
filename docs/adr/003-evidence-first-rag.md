@@ -1,4 +1,4 @@
-# ADR 003 — Evidence-first RAG
+# ADR 003: Evidence-first RAG
 
 ## Status
 

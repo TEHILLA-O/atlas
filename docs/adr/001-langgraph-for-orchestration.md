@@ -1,4 +1,4 @@
-# ADR 001 — LangGraph for research orchestration
+# ADR 001: LangGraph for research orchestration
 
 ## Status
 
