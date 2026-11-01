@@ -30,6 +30,7 @@ class ResearchRepository:
 
     async def create_session(self, query: str, thread_id: str) -> ResearchSession:
         row = ResearchSessionRow(
+            id=thread_id,
             user_query=query,
             status=ResearchStatus.CREATED.value,
             graph_thread_id=thread_id,
@@ -84,7 +85,8 @@ class ResearchRepository:
 
     async def add_evidence(self, research_id: str, items: list[Evidence]) -> None:
         for item in items:
-            self.session.add(
+            # merge, not add: resume persists the full state again.
+            await self.session.merge(
                 EvidenceRow(
                     id=item.evidence_id,
                     research_id=research_id,
@@ -128,7 +130,7 @@ class ResearchRepository:
         self, research_id: str, items: list[Contradiction]
     ) -> None:
         for item in items:
-            self.session.add(
+            await self.session.merge(
                 ContradictionRow(
                     id=item.id,
                     research_id=research_id,
